@@ -1,0 +1,29 @@
+.navbar{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.75px solid black;
+    width: 90%;
+    padding-bottom: 10px;
+}
+.logo img{
+    height: 50px;
+    width: 200px;
+}
+.nav-links ul, .profile ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 17px;
+}
+.nav-links ul{
+    gap: 30px;
+}
+.profile ul{
+    gap: 10px;
+}
+.nav-links ul li a{
+    color: black;
+}
